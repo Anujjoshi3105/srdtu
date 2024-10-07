@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   keywords:
     "robotics, society, DTU, technology, innovation, research, development",
   authors: [{ name: "Anuj Joshi", url: "https://anujjoshi.netlify.app" }],
-  themeColor: "#272727",
   openGraph: {
     title: "Society of Robotics - DTU",
     description:

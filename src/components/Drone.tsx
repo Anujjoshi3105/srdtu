@@ -52,6 +52,9 @@ export function init() {
   controls.enableDamping = true;
   controls.dampingFactor = 0.05;
   controls.rotateSpeed = 0.7;
+  controls.enableRotate = false;
+  controls.enableZoom = false;
+  controls.enablePan = false;
 
   const positions = [
     {
@@ -77,7 +80,7 @@ export function init() {
   window.addEventListener("scroll", () => {
     sections.forEach((section) => {
       const rect = section.getBoundingClientRect();
-      if (rect.top <= window.innerHeight / 3) {
+      if (rect.top <= window.innerHeight / 2) {
         currentSection = section.id;
       }
     });
@@ -103,12 +106,12 @@ export function init() {
 
         gsap.to(model.position, {
           y: activePosition.pos.y,
-          duration: 1.5,
+          duration: 2,
           ease: "power2.inOut",
           onComplete: () => {
             gsap.to(model.position, {
               y: activePosition.pos.y - 0.01,
-              duration: 1.5,
+              duration: 2,
               repeat: -1,
               yoyo: true,
               ease: "power2.inOut",
