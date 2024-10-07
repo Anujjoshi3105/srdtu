@@ -16,8 +16,7 @@ export default function Home() {
     <>
       <div
         id="drone"
-        className="fixed -z-100 bg-transparent opacity-60 md:opacity-100"></div>
-
+        className="fixed -z-[100] bg-transparent opacity-80"></div>
       <Hero />
       <About />
       <Team />

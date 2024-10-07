@@ -50,7 +50,7 @@ export default function RootLayout({
       <body className={`relative ${syne.className}`}>
         <Navbar />
         {children}
-        <div className="text-xl w-[80vw] md:text-3xl leading-8 text-center font-extrabold fixed select-none -z-10 left-1/2 translate-x-[-50%] bottom-10 opacity-5 text-stroke">
+        <div className="text-xl w-[80vw] md:text-3xl leading-8 text-center font-extrabold fixed select-none -z-10 left-1/2 translate-x-[-50%] bottom-10 opacity-[8%] text-stroke">
           SOCIETY OF ROBOTICS - DTU
         </div>
         <Footer />
