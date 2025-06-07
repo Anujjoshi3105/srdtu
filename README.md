@@ -6,7 +6,10 @@ The **Society of Robotics** at DTU is a platform for students passionate about r
 
 Explore our website to discover events, resources, and past projects that will inspire your next robotic venture.
 
-Give it a try at [https://societyofrobotics.dtu.in](#).
+[Live Demo](https://srdtu.netlify.app/)
+
+![srdtu](https://github.com/user-attachments/assets/2ac006f5-2d70-4af6-b042-03f1310d0478)
+
 
 ### Roadmap
 
